@@ -1,0 +1,277 @@
+.mainHome{
+    border: 1px solid red;
+    width:100%;
+    height:auto;
+}
+.Home1{
+    border:1px solid red;
+    width:100%;
+    height:600px;
+    display:flex;
+}
+.Home1>div{
+    border:1px solid teal;
+    width:50%;
+    height:100%;
+}
+.home_1{
+    padding:120px;
+    background-color: #ffe01b ;
+}
+.home_1>h1{
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Arima', cursive;
+}
+.home_1>p{
+    font-size: 23px;
+    text-align: left;
+}
+.home1_2{
+    background-image: url(../image/hero.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 580px 500px;
+    background-color: #ffe01b ;
+}
+.home2{
+    /* border:1px solid green; */
+    width:100%;
+    height:1600px;
+}
+.home2>h1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-family:'Arima', cursive; ;
+}
+.home2>div{
+    /* border:1px solid teal; */
+    height:31%;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.home2>div>div{
+    /* border:1px solid pink; */
+    width:45%;
+    height:100%;
+}
+.home2_image{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/1W85lekxjWyR49G8Ivf10V/dcd15d0e23f64ee9499978c17ba7e547/BOF-Abandoned-cart_1.jpg?w=760&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 580px 500px;
+}
+.home2_image1{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/76b1ts3zfjk8TTYommiHJC/c95c27c98b6418ac8d3c240fae52ab1b/MTSB_Audience_Management_Floats__1_.png?w=760&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 580px 500px;
+
+}
+.home2_image2{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/44IeK9HHrKidypOdqF4gSq/7a9b101899656f990c0a1ab2ff256dd9/1_Email_Builder_AUI-3.jpg?w=760&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 580px 500px;
+
+}
+
+.home2_data>h1{
+    font-size: 50px;
+    font-family:'Arima', cursive;
+    text-align: left;
+}
+.home2_data>p{
+    font-size: 20px;
+    text-align: left;
+}
+.home3{
+    /* border:1px solid green; */
+    width:100%;
+    height:500px;
+    background-color: #f6f6f4;
+}
+.home3>h1{
+    font-size: 50px;
+    font-family:'Arima', cursive;
+
+}
+.home3>h3{
+    font-size: 20px;
+}
+.home3_1{
+    /* border:1px solid pink; */
+    width:70%;
+    height:60%;
+    display: flex;
+    margin: auto;
+    
+  
+}
+.home3_1>div{
+    /* border:1px solid red; */
+    width:33%;
+    height: 100%;
+
+}
+.home3_1>div>div{
+    /* border: 1px solid green; */
+    height:80%
+}
+.home3_1>div>h1{
+    font-size: 20px;
+}
+.logo1{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/1UwhzIHudUfFf3IEgUQpLw/4538fff06cb2c15bfae0f2764728ef2f/new-belgium-brewing-logo-A417F22C28-seeklogo.com.png?w=520&fm=webp&q=70");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 250px 250px;
+}
+.logo2{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/jZxPQXjesCQjeR0xljc3b/d4e4cf06f6b4951aeab9a41db21f9362/Vimeo_bw.png?w=520&fm=webp&q=70");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 250px 250px;
+
+}
+.logo3{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/3eGTzHLQxE5I3jBWcPNR7u/efdd88aeb06177041587a91afea4d697/_ted-logo-black-ted-logo-black-and-white.png?w=520&fm=webp&q=70");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 200px 200px;
+
+}
+/* -------------------Keep pushing forward.CSS------------------- */
+.home4{
+    /* border:1px solid green; */
+    width:100%;
+    height:900px;
+    background-color: #fbeeca;
+}
+.home4{
+    font-size: 50px;
+    font-family:'Arima', cursive;
+}
+.home4>div{
+    width:80%;
+    height:600px;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+}
+.home4>div>div{
+    /* border:1px solid green; */
+    width:30%;
+    height:100%;
+
+}
+.forword1>div{
+    /* border:1px solid teal; */
+    width:100%;
+    height:50%;
+    background-image: url("https://eep.io/images/yzco4xsimv0y/1zWDKFXdQBZGeColFCtHgf/aa379dc2696f582b48f0e399c8a5f871/support1_b_w.png?w=160&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 230px 230px;
+}
+.forword1>h1{
+    font-size: 30px;
+    color:#241c15;
+}
+.forword1>p{
+    font-size: 20px;
+}
+.forword1>a{
+    font-size: 20px;
+    color:#004e56
+}
+.forword2>div{
+    /* border:1px solid teal; */
+    width:100%;
+    height:50%;
+    background-image: url("https://eep.io/images/yzco4xsimv0y/2OBlZ0Aun44giirtdr6Fx4/e592f63930574780f28fb792318c5899/thumbsup_b_w.png?w=160&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 230px 230px;
+}
+.forword2>h1{
+    font-size: 30px;
+    color:#241c15;
+}
+.forword2>p{
+    font-size: 20px;
+}
+.forword2>a{
+    font-size: 20px;
+    color:#004e56
+}
+a:hover{
+    text-decoration: underline;
+
+}
+.forword3>div{
+    /* border:1px solid teal; */
+    width:100%;
+    height:50%;
+    background-image: url("https://eep.io/images/yzco4xsimv0y/5ZD6ImzMGdQbhR59NIQB7a/b1dbe083df8adfceab2c75a1d66066e4/trustedpros_b_w.png?w=160&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 230px 230px;
+}
+.forword3>h1{
+    font-size: 30px;
+    color:#241c15;
+}
+.forword3>p{
+    font-size: 20px;
+}
+.forword3>a{
+    font-size: 20px;
+    color:#004e56
+}
+/* --------------------------------Do it all with Mailchimp cSS----------- */
+.home5{
+    border:1px solid green;
+    width:100%;
+    height:1400px;
+}
+.home5>h1{
+    margin-top: 30px;
+    font-size: 45px;
+    font-family:'Arima', cursive;
+}
+.home5>p{
+    font-size: 20px;
+}
+.home5_1{
+    border:1px solid green;
+    height:90%;
+    width: 100%;
+
+}
+.home5_1>div{
+    border:1px solid blue;
+    height:48%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.home_1_animationimg>div{
+    border:1px solid orange;
+    width:40%;
+    height: 100%;
+}
+
