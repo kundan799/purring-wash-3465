@@ -1,16 +1,16 @@
 .mainHome{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width:100%;
     height:auto;
 }
 .Home1{
-    border:1px solid red;
+    /* border:1px solid red; */
     width:100%;
     height:600px;
     display:flex;
 }
 .Home1>div{
-    border:1px solid teal;
+    /* border:1px solid teal; */
     width:50%;
     height:100%;
 }
@@ -244,7 +244,7 @@ a:hover{
 }
 /* --------------------------------Do it all with Mailchimp cSS----------- */
 .home5{
-    border:1px solid green;
+    /* border:1px solid green; */
     width:100%;
     height:1400px;
 }
@@ -257,21 +257,118 @@ a:hover{
     font-size: 20px;
 }
 .home5_1{
-    border:1px solid green;
+    /* border:1px solid green; */
     height:90%;
     width: 100%;
 
 }
 .home5_1>div{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     height:48%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 .home_1_animationimg>div{
-    border:1px solid orange;
+    /* border:1px solid orange; */
     width:40%;
     height: 100%;
+    padding: 60px;
+}
+.home_1_animationimg>div>h1{
+    font-size: 40px;
+    font-family:'Arima', cursive; 
+    text-align: left;
+}
+.home_1_animationimg>div>p{
+    font-size: 20px;
+    text-align: left;
+}
+.imageanimation{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/2VXH4llvvqqyqtQJRyrnRH/05cc0990764352838f7a4540265a00ad/MTSB_Website_Builder_Floats-dbFKcJgs.png?w=760&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 400px 400px;
+}
+.home_1_animationimg1>div{
+    /* border:1px solid orange; */
+    width:40%;
+    height: 100%;
+    padding: 60px;
+
+}
+.imageanimation1{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/2EG9TpUR2jS1DuUxiwHQqN/56cf8275691b0f54e4d4a085233796fd/MTSB_Multichannel_Floats-KaFKcJgs.png?w=760&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 450px 450px;
+
+}
+.home_1_animationimg1>div>h1{
+    font-size: 40px;
+    font-family:'Arima', cursive; 
+    text-align: left;
+}
+.home_1_animationimg1>div>p{
+    font-size: 20px;
+    text-align: left;
+}
+  /* -------------------------disciption css---------- */
+
+.home6{
+    width:100%;
+    /* border:1px solid green; */
+    height:900px;
+}
+.home6_1{
+    /* border:1px solid blue; */
+    width:15%;
+    height:200px;
+    margin-left: 10%;
+    background-image: url("https://eep.io/images/yzco4xsimv0y/3T2UKzEDnnVLn4cijpIg4p/fa461759edd2d39c2872f6c19c938a1a/Hompage-DenverMCA-quote.webp?w=300&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.home6_2{
+    /* border: 1px solid blue; */
+    width:80%;
+    height:600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.home6_2>div{
+    /* border:1px solid red; */
+    height:100%;
+    width:45%;
+}
+.home6_2data>h1{
+    font-size: 50px;
+    font-family:'Arima', cursive;
+
+}
+.home6_image{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/6GOkQaJXDJQRm5EXo9KPoy/9264fc8b320d7eb132aceb4c50cb59ec/How_the_Museum_of_Contemporary_Art_Denver_Tripled_Their_Email_Revenue-Hero.jpg?w=760&fm=webp&q=80");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-size: 450px 350px;
+}
+.home7{
+    /* border:1px solid green; */
+    width:100%;
+    height:380px;
+    background-color: #ffe01b;
+}
+.home7>h1{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family:'Arima', cursive;
+}
+.home7>p{
+    font-size: 25px;
 }
 
