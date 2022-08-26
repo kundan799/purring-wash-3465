@@ -32,12 +32,12 @@ const Navbar = () => {
           <FiSearch size={"30px"} />
         </div>
         <div>
-          <Button colorScheme="teal"  size='lg' variant="outline" borderRadius="none">
+          <Button colorScheme="teal"  size='lg' variant="outline" borderRadius="none" onClick={()=>navigate("/login")}>
             Log In
           </Button>
         </div>
         <div>
-          <Button colorScheme="teal" variant="solid" size='lg' borderRadius="none">
+          <Button colorScheme="teal" variant="solid" size='lg' borderRadius="none" onClick={()=>navigate("/signup")}>
             Sign Up free
           </Button>
         </div>
