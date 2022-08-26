@@ -1,0 +1,54 @@
+.Signupmain{
+    /* border:1px solid red; */
+    width:100%;
+    height:1000px;
+    display: flex;
+}
+.signup{
+    /* border:1px solid red; */
+    width:70%;
+    height:1000px 
+}
+.sign2{
+    /* border:1px solid green; */
+    width:30%;
+    height:1000px ;
+    background-color: 
+    #ffe01b;
+
+}
+.nav{
+    /* border:1px solid green; */
+    width:100%;
+    height:100px
+}
+.nav>div{
+    /* border:1px solid green; */
+    width:10%;
+    height:100px;
+    background-image: url("https://login.mailchimp.com/release/1.1.1a62ac527bc13f360d857039c1ac9f8c83ffbd1d9/images/brand_assets/logos/mc-freddie-dark.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 80px 80px;
+}
+.form{
+    /* border:1px solid blue; */
+    width:65%;
+    height:900px;
+    margin: auto;
+
+}
+.form>h1{
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Arima', cursive;
+}
+.form>p{
+    font-size: 22px;
+    font-family: 'Arima', cursive;
+    text-align: left;
+}
+p{
+   text-align: left;
+}

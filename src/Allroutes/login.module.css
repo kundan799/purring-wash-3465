@@ -1,0 +1,52 @@
+.loginmain{
+    /* border:1px solid red; */
+    height:800px;
+    width:100%;
+    display: flex;
+}
+.loginform{
+    /* border:1px solid red; */
+    height:800px;
+    width:33%;
+}
+.loginimage{
+    /* border:1px solid green; */
+    height:800px;
+    width:67%;
+    background-image: url("https://cdn-images.mailchimp.com/billboards/phpza0iJx.jpeg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    
+}
+.loginNav{
+    /* border:1px solid blue; */
+    height: 100px;
+    width: 100%;
+}
+.loginNav>div{
+    /* border:1px solid blue; */
+    height: 100px;
+    width: 15%;
+    background-image: url("https://login.mailchimp.com/release/1.1.10c4a50a66e29b60871bd6cfeda34c57416fc9e9b/images/brand_assets/logos/mc-freddie-dark.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 80px 80px;
+}
+.form1{
+    /* border:1px solid red; */
+    height: 85%;
+    width: 90%;
+    margin: auto;
+
+}
+.form1>h1{
+    font-size: 60px;
+    font-family: 'Arima', cursive;
+    text-align: left;
+}
+.form1>p{
+    font-size: 22px;
+    font-family: 'Arima', cursive;
+}

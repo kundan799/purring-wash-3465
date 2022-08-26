@@ -1,11 +1,13 @@
 import { Box, Button, SimpleGrid } from "@chakra-ui/react";
 import React, { useEffect } from "react";
+import {  useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Footer from "../component/Footer";
 
 const Home = () => {
+  const navigate=useNavigate()
   useEffect(() => {
     Aos.init({
       duration: 2000,
@@ -24,7 +26,7 @@ const Home = () => {
               <br /> expert advice built in.
             </p>
             <br />
-            <Button colorScheme="teal" size="lg" width="200px" height="70px">
+            <Button colorScheme="teal" size="lg" width="200px" height="70px" onClick={()=>navigate("/signup")}>
               Sign Up
             </Button>
           </div>
