@@ -1,0 +1,157 @@
+.M_main{
+    /* border:1px solid green; */
+    width:100%;
+    height:auto;
+}
+.M_main1{
+    border:1px solid grey;
+    width:40%;
+    height:70px;
+    margin: auto;
+    display: flex;
+
+}
+.M_main1>div{
+    border:1px solid grey;
+    width:50%;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f4;
+
+}
+.M_main1>div>h1{
+    text-align: center;
+    font-size: 20px;  
+}
+.M_main2{
+    border:1px solid grey;
+    width:95%;
+    height:1000px;
+    margin: auto;
+    display: flex;
+
+}
+.M_main2>div{
+    border:1px solid grey;
+    width:25%;
+    height:1000px;
+    padding: 30px;
+    
+}
+.M1>h1{
+    font-size: 40px;
+    font-family: 'Arima', cursive;
+    text-align: left;
+
+
+}
+.M1>h2{
+    font-size: 23px; 
+    text-align: left;
+    border-bottom: 3px dotted teal;
+    width:290px;
+    margin-top: 10px;
+}
+.M_main3{
+    /* border:1px solid red; */
+    width:80%;
+    height:450px;
+    margin: auto;
+    display: flex;
+}
+.M_main3>div{
+    
+    width:50%;
+    height: 100%;
+
+}
+.M_main3_1{
+    padding: 30px;
+    border-right:1px solid black;
+
+}
+.M_main3_1>h1{
+    font-size: 35px;
+    font-family: 'Arima', cursive;
+    text-align: left;
+}
+.M_main3_1>p{
+    font-size: 20px;
+}
+.M_main3_2{
+    padding: 30px;
+    
+
+}
+.M_main3_2>h1{
+    font-size: 35px;
+    font-family: 'Arima', cursive;
+    text-align: left;
+}
+.M_main3_2>p{
+    font-size: 20px;
+}
+.M_main4{
+    /* border:1px solid red; */
+    width:70%;
+    height:700px;
+    margin: auto;
+}
+.M_main4>h1{
+    font-size: 50px;
+    font-family: 'Arima', cursive;
+    text-align: left;
+}
+.M_main5{
+    /* border:1px solid blue; */
+    width:80%;
+    height:600px;
+    margin: auto;
+}
+.M_main5>h1{
+    font-size: 60px;
+    font-family: 'Arima', cursive;
+}
+.M_main5_1{
+    /* border:1px solid blue; */
+    height:300px;
+    display: flex;
+    width:100%;
+    
+
+}
+.M_main5_1>div{
+    /* border:1px solid red; */
+    height:100%;
+    width:25%;
+}
+.M_main5_1_1{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/6EIjMFs2ZyQWsmOOYc4cGe/19d62aa558c8f5d4c4bf222e7e36571b/EastFork.png?w=520&fm=webp&q=70");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 200px 70px;
+}
+.M_main5_1_2{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/5Z9C7t0HDyyaWu60iWE00A/2e3d2eaa056d0d86c6712c88d239762f/chronicle-books-logo.jpg?w=520&fm=webp&q=70");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 200px 150px;
+}
+.M_main5_1_3{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/vHWiUSlrS8sSQc0cCesGY/429d539471239d6ffcdb8be8767140cb/Fader-Logo-800px-144dpi.jpg?w=520&fm=webp&q=70");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 200px 70px;
+}
+.M_main5_1_4{
+    background-image: url("https://eep.io/images/yzco4xsimv0y/2fZXnWbDK8ugIaCW8Qus0i/1b8f1c4aa80dda874418e4bfa29b60e5/Sweat.png?w=520&fm=webp&q=70");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-size: 200px 70px;
+}
