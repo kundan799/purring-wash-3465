@@ -9,23 +9,24 @@ import {
   FormHelperText,
   Input,
   Button,
-  Checkbox
+  Checkbox,
 } from "@chakra-ui/react";
 import { AppContext } from "../context/AppContext";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Login = () => {
   const navigate = useNavigate();
   const { dispatch } = useContext(AppContext);
   const [formData, setFormData] = useState({
     email: "",
-    password: ""
+    password: "",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
-      [name]: value
+      [name]: value,
     });
   };
 
@@ -35,15 +36,16 @@ const Login = () => {
     axios
       .post("https://reqres.in/api/login", {
         email: formData.email,
-        password: formData.password
+        password: formData.password,
       })
       .then((res) => {
         console.log(res.data);
         dispatch({
           type: "LOGIN_SUCCESS",
-          token: res.data.token
+          token: res.data.token,
         });
-        alert("Login succes")
+        alert("Login succes");
+       
         navigate("/payment");
       })
       .catch((err) => {
@@ -72,38 +74,53 @@ const Login = () => {
           <br />
           <FormControl>
             <form onSubmit={handleSubmit}>
-            <FormLabel style={{ fontSize: "28px" }}>Email</FormLabel>
-            <Input
-              type="email"
-              height="70px"
-              vaue={formData.email}
-              name="email"
-              onChange={handleChange}
-              style={{ border: "1px solid grey" }}
-            />
-            <br />
-            <br />
-            <FormLabel style={{ fontSize: "28px" }}>Password</FormLabel>
-            <Input
-              type="password"
-              height="70px"
-              value={formData.password}
-              name="password"
-              onChange={handleChange}
-              style={{ border: "1px solid grey" }}
-            />
-            <br />
-            <br />
-            <br />
-            <Input type="submit" bg="teal" height="60px" color="white" value=" Log In"/>
+              <FormLabel style={{ fontSize: "28px" }}>Email</FormLabel>
+              <Input
+                type="email"
+                height="70px"
+                vaue={formData.email}
+                name="email"
+                onChange={handleChange}
+                style={{ border: "1px solid grey" }}
+              />
+              <br />
+              <br />
+              <FormLabel style={{ fontSize: "28px" }}>Password</FormLabel>
+              <Input
+                type="password"
+                height="70px"
+                value={formData.password}
+                name="password"
+                onChange={handleChange}
+                style={{ border: "1px solid grey" }}
+              />
+              <br />
+              <br />
+              <br />
+              <Input
+                type="submit"
+                bg="teal"
+                height="60px"
+                color="white"
+                value=" Log In"
+              />
+             
             </form>
           </FormControl>
-          <br/>
+          <br />
           <Checkbox defaultChecked>Keep me Logged in</Checkbox>
-          <br/>
-          <Link to="#" style={{color:"teal",textDecoration:"underline"}}>Forgot username?</Link>{"    "}<Link to="#"  style={{color:"teal",textDecoration:"underline"}}>Forgot username?</Link>
-          <br/>
-          <Link to="#"  style={{color:"teal",textDecoration:"underline"}}>Can't Log In?</Link>
+          <br />
+          <Link to="#" style={{ color: "teal", textDecoration: "underline" }}>
+            Forgot username?
+          </Link>
+          {"    "}
+          <Link to="#" style={{ color: "teal", textDecoration: "underline" }}>
+            Forgot username?
+          </Link>
+          <br />
+          <Link to="#" style={{ color: "teal", textDecoration: "underline" }}>
+            Can't Log In?
+          </Link>
         </div>
       </div>
       <div className={styles.loginimage}></div>

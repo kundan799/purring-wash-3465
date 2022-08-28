@@ -288,7 +288,7 @@ const Home = () => {
           <p>Every big idea starts with a small step forward.</p>
           <br />
           <br />
-          <Button data-aos="fade-up" colorScheme="teal" bg="#007c89" width="200px"height="70px" variant="solid">
+          <Button data-aos="fade-up" colorScheme="teal" bg="#007c89" width="200px"height="70px" variant="solid" onClick={()=>navigate("/pricing")}>
             Pick A Plan
           </Button>
         </div>
