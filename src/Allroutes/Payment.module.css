@@ -1,0 +1,15 @@
+
+
+.Paymentul li {
+    padding-bottom: 12px;
+   
+}
+.scrool{
+    overflow-y: scroll;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+.over{
+    overflow: hidden;
+    /* border: 1px solid blue; */
+}

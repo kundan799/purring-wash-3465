@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./Markating.module.css";
 import { Select, Button } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import MarkatingAccordian from "../chakra/MarkatingAccordian";
 
 const MarkatingPlatform = () => {
+  const navigate=useNavigate()
   return (
     <div className={styles.M_main}>
       <br />
@@ -55,8 +56,9 @@ const MarkatingPlatform = () => {
             width="100%"
             height="50px"
             borderRadius={"none"}
+            onClick={()=>navigate("/payment")}
           >
-            Button
+           Buy Now
           </Button>
           <p>
             <Link to="#" style={{ color: "teal" }}>
